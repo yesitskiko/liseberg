@@ -1,0 +1,101 @@
+body {
+    background-image: linear-gradient(to bottom right, #ffffff, rgb(223, 223, 223));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+#icon {
+    height: 50px;
+    margin-top: 10px;
+    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(22%) hue-rotate(41deg) brightness(93%) contrast(105%);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#logo {
+    height: 35px;
+}
+
+.FloatingDiv {
+    background-color: rgb(240,240,240);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 5px 7px rgb(190,190,190);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+/* ALERTS */
+/* inspired by Twitter Bootstrap */
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    /*border: 1px solid #eed3d7;*/
+    border-radius: 4px;
+    position: absolute;
+    bottom: 0px;
+    right: 21px;
+    /* Each alert has its own width */
+    float: right;
+    clear: right;
+    background-color: white;
+
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  
+  .alert-red {
+    color: white;
+    background-color: #DA4453;
+  }
+  .alert-green {
+    color: white;
+    background-color: #37BC9B;
+  }
+  .alert-blue {
+    color: white;
+    background-color: #4A89DC;
+  }
+  .alert-yellow {
+    color: white;
+    background-color: #F6BB42;
+  }
+  .alert-orange {
+    color:white;
+    background-color: #E9573F;
+  }
