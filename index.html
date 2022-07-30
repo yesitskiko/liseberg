@@ -12,6 +12,7 @@
   <body>
     <main>
         <div style="margin-top:0%;" id="ohsnap"></div>
+        
         <img class="rotate center" style="float: none; margin-top: 20px; margin-bottom: -10px;" id="logo" src="https://seeklogo.com/images/L/Liseberg-logo-04D2B0C6E8-seeklogo.com.png" alt="">
 
         <div id="main_box" class="center" style="margin-top: 50px;">
@@ -27,8 +28,24 @@
             <h3 id="AmountPersonLbl" style="font-family: Arial, Helvetica, sans-serif; color: #252525; margin-top: 40px; margin-bottom: 5px;">1 person(er)</h3>
             <input id="prsSlider" oninput="PersonSlideChanged(this.value)" style="width: 200px; margin-top: -40px;" type="range" min="1" max="6" value="1">
             <button id="scan_btn" onclick="Scan()" class="myButton" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;">Scan</button>
+            
         </div>
         <a class="center" style="text-align: center;" href="https://discord.gg/Chpy3wWnXs">https://discord.gg/Chpy3wWnXs</a>
+
+        <div class="modal" style="background-color: whitesmoke;" id="myModal">
+          <h2 style="font-family:Arial, Helvetica, sans-serif; text-align: center;">v1.0.8a</h2>
+          <div style="margin-left: 20px;">
+            <h4 style="font-family: Arial, Helvetica, sans-serif;">&hearts; FIXAT BUGGAR</h4>
+            <h4 style="font-family: Arial, Helvetica, sans-serif; margin-top: -20px;">&hearts; FLER KONTROLLER</h4>
+            <h4 style="font-family: Arial, Helvetica, sans-serif; margin-top: -20px;">&hearts; FÖRBÄTTRADE HASTIGHET</h4>
+            <h4 style="font-family: Arial, Helvetica, sans-serif; margin-top: -20px;">&hearts; NYA ANIMATIONER</h4>
+            <h4 style="font-family: Arial, Helvetica, sans-serif; margin-top: -20px;">&hearts; LAGT TILL CHANGELOG</h4>
+
+            <h3 style="margin-right: 20px; font-family: Arial, Helvetica, sans-serif; text-align: center;">Tack för att du använder våran hemsida. Hemsidan är skapad av <a href="https://yesitskiko.github.io/about-me/">KIKO</a>. Hemsidan är till för att göra det enklare för Liseberg besökare att filtrera virtuella köer. <br><br>Vill du komma i kontakt med mig?<br><i>Gå med i min <a href="https://discord.gg/Chpy3wWnXs">discord server</a>.</i></h3>
+
+            <button style="position: relative; font-family: Arial, Helvetica, sans-serif; display: block; margin-left: auto; margin-right: auto;" onclick="Exit()" class="myButton">Fortsätt</button>
+          </div>
+        </div>
     </main>
   </body>
 </html>
